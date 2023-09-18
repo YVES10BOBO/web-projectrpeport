@@ -1,0 +1,63 @@
+
+:root {
+	--dark: #374151;
+	--darker: #1F2937;
+	--darkest: #111827;
+	--grey: #6B7280;
+	--pink: #EC4899;
+	--purple: #8B5CF6;
+	--light: #EEE;
+}
+
+body{
+  background-color: var(--darker);
+}
+
+.header{
+  background-color: var( #8B5CF6);
+}
+
+th li a{
+  
+  text-decoration:none;
+  color: white;
+}
+
+th li a:hover{
+  background-color: rgb(45, 78, 2);
+   padding: 10px;
+  text-decoration: underline;
+  border-radius: 10px;
+  
+  }
+
+th li{
+  padding: 37px;
+  width:200px; text-decoration: none; 
+  list-style-type: none; 
+  border-color: none;
+  /* background-color: rgb(0, 0, 0); */
+  color: white; 
+}
+
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+
+
+
